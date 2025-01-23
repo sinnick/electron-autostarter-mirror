@@ -13,7 +13,6 @@ function createWindow() {
 		}
 	});
 	mainWindow.loadURL('http://localhost:3000');
-	// mainWindow.loadURL('https://apps.visionblo.com');
 	mainWindow.setFullScreenable(true);
 	mainWindow.setFullScreen(true); // Asegura que la ventana esté en pantalla completa
 	mainWindow.setMenu(null); // Deshabilita el menú
