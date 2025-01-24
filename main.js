@@ -18,4 +18,6 @@ function createWindow() {
 	mainWindow.setMenu(null); // Deshabilita el menú
 }
 
-app.whenReady().then(createWindow);
+setTimeout(() => {
+	app.whenReady().then(createWindow);
+}, 60000);
